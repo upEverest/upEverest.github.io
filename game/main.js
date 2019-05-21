@@ -1,3 +1,4 @@
+
 var count = 1;
 var count1 = 1;
 var but = document.querySelector(".button");
