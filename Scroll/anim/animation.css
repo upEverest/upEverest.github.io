@@ -1,0 +1,151 @@
+@keyframes LogoDown {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes right {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+@keyframes TextUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes TextUp2 {
+    0% {
+      transform: translateY(100px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes TextUp3 {
+    0% {
+      transform: translateY(100px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes TextUp4 {
+    0% {
+      transform: translateY(100px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes BlockUp {
+    0% {
+      transform: translateY(500px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes BlockUp2 {
+    0% {
+      transform: translateY(500px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes BlockUp3 {
+    0% {
+      transform: translateY(500px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes BlockUp4 {
+    0% {
+      transform: translateY(500px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes FormLeft {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.animLogoDown {
+    animation: LogoDown 2s;
+}
+.animRight{
+    animation: right 2s;
+}
+.animUp{
+    animation: TextUp 2s;
+}
+.animUp2{
+    animation: TextUp2 3s;
+}
+.animUp3{
+    animation: TextUp3 2s;
+}
+.animUp4{
+    animation: TextUp4 3s;
+}
+.animleft{
+    animation: FormLeft 2s;
+}
+.animBlock1{
+    animation: BlockUp 2s;
+}
+.animBlock2{
+    animation: BlockUp2 2.3s;
+}
+.animBlock3{
+    animation: BlockUp3 2.6s;
+}
+.animBlock4{
+    animation: BlockUp4 2.9s;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.arrow{
+  opacity: 0;
+}

@@ -1,0 +1,47 @@
+
+.section-7_slider{
+    margin: 0 auto;
+    width: 950px;
+    height: 250;
+}
+    
+.section-7_slider-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+    
+.section-7_slider-item__img1{
+    background-image: url(images/1.jpg);
+}
+.section-7_slider-item__img2{
+    background-image: url(images/2.jpg);
+}
+.section-7_slider-item__img3{
+    background-image: url(images/3.jpg);
+}
+.section-7_slider-item__img1, .section-7_slider-item__img2, .section-7_slider-item__img3{
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 10px auto; 
+}
+    
+.section-7_slider-item__h3{
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #4e4e4e;
+    font-style: italic;
+    padding: 20px;
+}
+    
+.section-7_slider-item__p{
+    padding: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #4e4e4e;
+}
+    
