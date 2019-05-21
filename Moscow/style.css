@@ -389,7 +389,7 @@ display: flex;
     right: 0;
     bottom: 0;
     background-color: rgba(146, 141, 141, 0.514);
-    display:none; 
+    display:none;   
 }
 .form_container_content{
     width: 400px;
@@ -431,6 +431,8 @@ input, textarea{
     height: 25px;
     margin: 5px;
     padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
 }
 textarea{
     font-size: 1.1em;
@@ -439,12 +441,14 @@ textarea{
 input[type="file"]{
 padding-left: 0;
 height: 22px;
-    
+outline: none;
     color: white;
+    border-radius: 0 !important;
 }
 input[type="file"]:hover{
-    color: white;
+    color: #152d5e;
     cursor: pointer;
+    
 }
 input[type="submit"]{
     width: 150px;
@@ -452,10 +456,13 @@ input[type="submit"]{
     font-size: 18px;
     align-self: flex-end;
     border-radius: 10px;
+    outline: none;
 }
 input[type="reset"]{ 
     width: 115px;
     height: 21px;
+    outline: none;
+    border-radius: 0 !important;
 }
 input[type="submit"]:hover{
     background-color: #001f3f;
@@ -467,8 +474,13 @@ input[type="reset"]:hover{
     color: white;
     cursor: pointer;
 }
-.empty{
-    background-color: rgb(255, 0, 0);
+.first {
+    border: 2px solid red;
 }
+
+.second {
+    border: 2px solid green;
+}
+
 
 

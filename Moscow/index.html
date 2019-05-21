@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <script src="form.js"></script>
+    <script src="form.js" defer></script>
 </head>
 
 <body>
@@ -188,13 +188,13 @@
                         <a href="#" class="forms_container_content__krest"><i class="fa fa-times" aria-hidden="true"></i></a>
                         <h3 class="form_container_content__h3">Заполните форму</h3>
                         <form action="index.php" method="GET">
-                            <input type="text" name="name" placeholder="Ваше имя" autofocus>
-                            <input type="email" name="email" placeholder="email@mail.ru">
-                            <input type="tel" name="telephone" placeholder="Ваш телефон">
+                            <input class="name" type="text" name="name" placeholder="*Ваше имя" autofocus>
+                            <input class="mail" type="email" name="email" placeholder="*email@mail.ru">
+                            <input class="tel" type="tel" name="telephone" placeholder="*Ваш телефон">
                             <textarea name="text" id="" cols="30" rows="10" placeholder="Ваш ваш вопрос"></textarea>
                             <input type="file">
-                            <input type="reset" value="Очистить поля">
-                            <input class="submit" type="submit">
+                            <input class="reset" type="reset" value="Очистить поля">
+                            <input class = "start" type="submit">
                         </form>
                     </div>
                 </div>

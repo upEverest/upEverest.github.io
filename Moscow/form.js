@@ -2,7 +2,7 @@ window.onload = function () {
     var form = document.querySelector('.form_container');
     var button = document.querySelector('.popul_container__button');
     var krest = document.querySelector('.forms_container_content__krest');
-    
+
     function show() {
         form.style.display = "flex";
     }
@@ -13,33 +13,57 @@ window.onload = function () {
     krest.onclick = displaynone;
 }
 
-   let name  = document.querySelector("[name='name']");
-    let email  = document.querySelector("[name='email']");
-    let telephone  = document.querySelector("[name='telephone']");
-    let sub = document.querySelector(".submit");
-    let text = document.querySelector("[name='text']");   
-    
-    sub.onclick = function (event){
-        event.preventDefault();
+var sub = document.querySelector(".start");
+var fieldName = document.querySelector(".name");
+var fieldMail = document.querySelector(".mail");
+var fieldTel = document.querySelector(".tel");
+check(fieldName);
+check(fieldMail);
+check(fieldTel);
 
-   
+sub.onclick = function () {
+    event.preventDefault();
+
+    if (!fieldName.value) {
+        fieldName.className = "first";
+        fieldName.placeholder = "Заполните имя, пожалуйста";
+    }
+    else {
+        fieldName.className = "second";
+       
+    }
+    if (!fieldMail.value) {
+        fieldMail.className = "first";
+        fieldMail.placeholder = "Заполните электронную почту, пожалуйста"
+    } else {
+        fieldMail.className = "second";
+    }
+    if (!fieldTel.value) {
+        fieldTel.className = "first";
+        fieldTel.placeholder = "Заполните телефон, пожалуйста"
+    } else {
+        fieldTel.className = "second";
+    } 
+}   
 
 
 
-if (name == "") {
-    // name.className = "empty";
-    alert("Ты не заполнил имя");
+function check(x) {
+    x.onblur = function () {
+        if (x.value == "") {
+            x.className = "first";
+        } else {
+            x.className = "second";
+        }
+    }
 }
-else if (email ==""){
-    // email.className = "empty";
-    alert("Ты не заполнил email");  
+
+let reset = document.querySelector(".reset");
+reset.onclick = function () {
+    fieldTel.className = "";
+    fieldMail.className = "";
+    fieldName.className = "";
+    fieldTel.placeholder = "*Ваш телефон";
+    fieldMail.placeholder = "*email@mail.ru";
+    fieldName.placeholder = "*Ваше имя";
 }
-else if (telephone ==""){
-    // telephone.className = "empty";
-    alert("Ты не заполнил телефон");  
-}
-else if (text ==""){
-    // text.className = "empty";
-    alert("Ты не заполнил вопрос");  
-}
- }
