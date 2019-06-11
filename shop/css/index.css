@@ -1,0 +1,338 @@
+.wrapper_bg-2, .wrapper_bg-3, .wrapper_bg-4, .wrapper_bg-5, .wrapper_bg-6, .wrapper_bg-7, .wrapper_bg-8, .bg, .wrapper_bg-9 {
+  width: 294px;
+  height: 294px;
+}
+
+.wrapper_bg-1, .wrapper_bg-4 p, .wrapper_bg-5, .wrapper_bg-7 p, .wrapper_bg-8 p, .wrapper_bg-9, .wrapper_bg-10 {
+  color: white;
+  text-align: center;
+}
+
+.wrapper_new {
+  height: 300px;
+  margin-top: 200px;
+}
+
+.wrapper_new h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper_new h3 {
+  color: #606060;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+  padding: 20px 0 40px;
+}
+
+.wrapper_new a {
+  text-decoration: none;
+  color: #606060;
+}
+
+.new {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.wrapper_foto {
+  width: 1176px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.wrapperr_foto__cloumn {
+  width: 295px;
+  height: 887px;
+}
+
+.wrapper_bg-1 {
+  height: 589px;
+  width: 294px;
+  background-image: url(../img/1.jpg);
+  background-size: contain;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position: 70% 40%;
+  text-transform: uppercase;
+}
+
+.wrapper_bg-1 h5 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 295px;
+  font-size: 1.5em;
+}
+
+.wrapper_bg-1 p {
+  font-style: italic;
+  padding-top: 5px;
+}
+
+.wrapper_bg-2 {
+  background-image: url(../img/5.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: 70% 40%;
+}
+
+.wrapper_bg-3 {
+  background-color: #e5e5e5;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper_bg-3 p {
+  width: 200px;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+  line-height: 1.3em;
+}
+
+.exclamation-mark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.sign {
+  height: 30px;
+  width: 30px;
+  background-image: url(../img/icons/attention-sign-outline.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.line-mini {
+  height: 1px;
+  width: 15px;
+  background: white;
+  margin: 10px;
+}
+
+.wrapper_bg-4 {
+  background-image: url(../img/2.jpg);
+}
+
+.wrapper_bg-4 p {
+  font-size: 1.5em;
+  padding: 130px 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper_bg-4 p i {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
+}
+
+.wrapper_bg-5 {
+  background-color: #606060;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper_bg-5 P {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.arrow {
+  margin: 0 auto;
+  height: 35px;
+  width: 35px;
+  background-image: url(../img/arrow.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrapper_bg-6 {
+  background-image: url(../img/3.jpg);
+  background-size: 151%;
+  background-repeat: no-repeat;
+  background-position: 15% 40%;
+}
+
+.wrapper_bg-7 {
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper_bg-7 p {
+  width: 200px;
+  font-size: 1.1em;
+  font-family: "Pattaya", sans-serif;
+  line-height: 1.3em;
+  margin-left: 47px;
+}
+
+.wrapper_bg-8 {
+  background-image: url(../img/6.jpg);
+  text-transform: uppercase;
+}
+
+.wrapper_bg-8 p {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 120px;
+}
+
+.wrapper_bg-8 p i {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8em;
+  padding-top: 20px;
+  text-transform: lowercase;
+}
+
+.bg {
+  background: #887c5b85;
+}
+
+.wrapper_bg-9 {
+  background-color: #606060;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.wrapper_bg-9 P {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+
+.wrapper_bg-9 P i {
+  font-style: italic;
+  padding-top: 5px;
+  font-family: none;
+  font-size: 0.7em;
+}
+
+.wrapper_bg-10 {
+  height: 588px;
+  width: 294px;
+  background-image: url(../img/4.jpg);
+  background-size: contain;
+  text-transform: uppercase;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: 20% 40%;
+}
+
+.wrapper_bg-10 p {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 295px;
+  font-size: 1.5em;
+}
+
+.wrapper_bg-10 p i {
+  font-style: italic;
+  font-family: none;
+  font-size: 0.7em;
+}
+
+.inform {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.inform_h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  margin-bottom: 20px;
+}
+
+.inform_h5 {
+  font-style: italic;
+  font-size: 1.2em;
+  padding-bottom: 40px;
+  color: #606060;
+}
+
+.form-inform {
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.error {
+  text-align: center;
+  font-style: italic;
+}
+
+.email {
+  height: 42px;
+  width: 400px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  font-style: italic;
+  border: 1px solid #606060;
+}
+
+.submit {
+  height: 46px;
+  width: 130px;
+  color: white;
+  background-color: #f68236;
+  border: 0;
+  margin-left: -5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,14 @@
+.catalog {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.catalog.preload {
+  opacity: 0.5;
+}
+
+.header {
+  margin-top: 200px;
+  text-align: center;
+}
+/*# sourceMappingURL=catalog.css.map */

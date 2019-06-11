@@ -1,0 +1,237 @@
+@import var.sass
+
+
+
+
+//Основной контент
+.wrapper_new
+    height: 300px
+    margin-top: 200px  
+    h1
+        text-transform: uppercase
+        font-size: 3em
+        text-align: center
+        font-family: $font_name
+    h3
+        color: $text_color
+        text-align: center
+        font-style: italic
+        font-size: 1.5em
+        padding: 20px 0 40px
+    a
+        text-decoration: none
+        color: $text_color
+
+.new
+    width: 230px
+    border: 1px solid $bg_color
+    margin: 0 auto
+    text-align: center
+    padding: 25px 0
+    font-size: 0.8em
+    text-transform: uppercase
+.wrapper_foto
+    width: 1176px
+    display: flex
+    margin: 0 auto
+.wrapperr_foto__cloumn
+    width: 295px
+    height: 887px
+    
+.wrapper_bg-1
+    height: 589px
+    width: 294px
+    background-image: url(../img/1.jpg) 
+    background-size: contain
+    @extend %text-on-foto
+    background-size: 130%
+    background-repeat: no-repeat
+    background-position: 70% 40%
+    text-transform: uppercase
+    h5
+        font-family: $font_desc
+        padding-top: 295px
+        font-size: 1.5em
+        
+    p
+        font-style: italic
+        padding-top: 5px
+        
+.wrapper_bg-2
+    @extend %size_bg_foto
+    background-image: url(../img/5.jpg) 
+    // border: 1px solid black
+    background-size: 150%
+    background-repeat: no-repeat
+    background-position: 70% 40%
+.wrapper_bg-3
+    @extend %size_bg_foto
+    background-color: $bg_color
+    color: white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    p
+        width: 200px
+        font-size: 1.1em
+        text-align: center
+        font-family: $font_italic
+        line-height: 1.3em
+   
+.exclamation-mark
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 10px
+.sign
+    height: 30px
+    width: 30px
+    background-image: url(../img/icons/attention-sign-outline.png) 
+    background-size: 100%
+    background-repeat: no-repeat
+.line-mini
+    height: 1px
+    width: 15px
+    background: white
+    margin: 10px
+.wrapper_bg-4
+    @extend %size_bg_foto
+    background-image: url(../img/2.jpg) 
+    p
+        @extend %text-on-foto
+        font-size: 1.5em
+        padding: 130px 0 5px 0
+        font-family: $font_desc
+        i
+            font-family: 'Playfair Display', serif
+            font-size: 0.8em
+.wrapper_bg-5
+    @extend %size_bg_foto
+    background-color: $text_color
+    @extend %text-on-foto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    P
+        text-transform: uppercase
+        font-size: 1.5em
+        font-family: $font_desc
+.arrow
+    margin: 0 auto
+    height: 35px
+    width: 35px
+    background-image: url(../img/arrow.png)
+    background-size: 100%
+    background-repeat: no-repeat
+.wrapper_bg-6
+    @extend %size_bg_foto
+    background-image: url(../img/3.jpg)
+    background-size: 151%
+    background-repeat: no-repeat
+    background-position: 15% 40%
+.wrapper_bg-7
+    @extend %size_bg_foto
+    background-color: $bg_color
+    display: flex
+    flex-direction: column
+    justify-content: center
+    p
+        width: 200px
+        font-size: 1.1em
+        font-family: $font_italic
+        line-height: 1.3em
+        margin-left: 47px
+        @extend %text-on-foto
+
+.wrapper_bg-8
+    @extend %size_bg_foto
+    background-image: url(../img/6.jpg) 
+    text-transform: uppercase
+    p
+        @extend %text-on-foto
+        font-size: 1.5em
+        font-family: $font_desc
+        padding-top: 120px
+        i
+            font-family: 'Playfair Display', serif
+            font-size: 0.8em
+            padding-top: 20px
+            text-transform: lowercase
+            
+.bg
+    @extend %size_bg_foto
+    background: #887c5b85
+.wrapper_bg-9
+    @extend %size_bg_foto
+    background-color: $text_color
+    display: flex
+    flex-direction: column
+    justify-content: center
+    @extend %text-on-foto
+    text-transform: uppercase
+    P
+        font-family: $font_desc
+        font-size: 1.5em
+        i
+            font-style: italic
+            padding-top: 5px
+            font-family: none
+            font-size: 0.7em
+
+.wrapper_bg-10
+    height: 588px
+    width: 294px
+    background-image: url(../img/4.jpg) 
+    background-size: contain
+    @extend %text-on-foto
+    text-transform: uppercase
+    background-size: 120%
+    background-repeat: no-repeat
+    background-position: 20% 40%
+    p
+        font-family: $font_desc
+        padding-top: 295px
+        font-size: 1.5em
+        i
+            font-style: italic
+            font-family: none
+            font-size: 0.7em
+.inform
+    padding-top: 100px
+    text-align: center
+    
+.inform_h2
+    font-family: $font_name
+    text-transform: uppercase
+    font-size: 1.9em
+    margin-bottom: 20px
+.inform_h5  
+    font-style: italic
+    font-size: 1.2em
+    padding-bottom: 40px
+    color: $text_color
+.form-inform
+    height: 100px
+    width: 500px
+    margin: 0 auto
+    display: flex
+.error
+    text-align: center
+    font-style: italic
+.email
+    height: 42px
+    width: 400px
+    margin-bottom: 15px
+    padding-left: 15px
+    font-style: italic
+    border: 1px solid $text_color
+.submit
+    height: 46px
+    width: 130px
+    color: white
+    background-color: $bask_bg
+    border: 0
+    // text-decoration: none
+    margin-left: -5px
+    cursor: pointer
